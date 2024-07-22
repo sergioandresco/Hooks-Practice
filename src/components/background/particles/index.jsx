@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 
+import './particles.css';
+
 export default function Particle() {
 
     const [init, setInit] = useState(false);
@@ -48,7 +50,7 @@ export default function Particle() {
                                 quantity: 4,
                             },
                             repulse: {
-                                distance: 200,
+                                distance: 100,
                                 duration: 0.4,
                             },
                         },
@@ -79,7 +81,7 @@ export default function Particle() {
                             enable: true,
                             area: 800,
                             },
-                            value: 220,
+                            value: 300,
                         },
                         opacity: {
                             value: 0.5,

@@ -4,7 +4,7 @@ import { atomOneDark } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import { FiClipboard } from "react-icons/fi";
 import { FaCheck } from "react-icons/fa6";
 
-import '../state/state.css';
+import '../../states/state/state.css';
 
 function HookEffect(){
 

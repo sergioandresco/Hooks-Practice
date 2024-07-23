@@ -69,6 +69,7 @@
     display: flex;
     gap: 26px;
     align-items: center;
+    padding-top: 15px;
 }
 
 .btn-23,

@@ -76,7 +76,8 @@ function HookState(){
                         customStyle={{
                             padding: "18px",
                             margin: "0",
-                            borderRadius: "0px 0px 13px 13px"
+                            borderRadius: "0px 0px 13px 13px",
+                            height: "220px",
                         }}
                         wrapLongLines={true}
                     >
@@ -85,7 +86,7 @@ function HookState(){
                 </div>
 
                 <div className="container-example-button">
-                    <p>The amount of clics are <strong>{count}</strong></p>
+                    <p>The amount of clicks are <strong>{count}</strong></p>
                     <button class="btn-23" onClick={() => setCount(count + 1)}>
                         <span class="text">Click</span>
                         <span aria-hidden="" class="marquee">Click</span>

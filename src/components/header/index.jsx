@@ -17,7 +17,7 @@ function Header(){
                     </Link>
                 </li>
                 <li>
-                    <Link to='/useState'>
+                    <Link to='/useEffect'>
                         useEffect
                     </Link>
                 </li>

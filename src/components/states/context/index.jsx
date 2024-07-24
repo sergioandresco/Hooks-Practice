@@ -95,7 +95,7 @@ function HookContext() {
         <ThemedContent>
           <h1 className="content--title">useContext Hook</h1>
           <div className="content--description">
-            <p>The useContext is a React Hook that allows you to access the value of a context directly in a functional component. Context is used to share data that can be considered "global" for a tree of React components, such as the current authenticated user, theme, or preferred language.</p>
+            <p>The useContext Hook is a React Hook that allows you to access the value of a context directly in a functional component. Context is used to share data that can be considered "global" for a tree of React components, such as the current authenticated user, theme, or preferred language.</p>
           </div>
           <h2 className="content--subtitle">Example</h2>
           <div className="container-example">

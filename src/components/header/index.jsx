@@ -26,6 +26,11 @@ function Header(){
                         useContext
                     </Link>
                 </li>
+                <li>
+                    <Link to='/useMemo'>
+                        useMemo
+                    </Link>
+                </li>
             </ul>
         </navbar>
     );

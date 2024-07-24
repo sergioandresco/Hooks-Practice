@@ -21,6 +21,11 @@ function Header(){
                         useEffect
                     </Link>
                 </li>
+                <li>
+                    <Link to='/useContext'>
+                        useContext
+                    </Link>
+                </li>
             </ul>
         </navbar>
     );

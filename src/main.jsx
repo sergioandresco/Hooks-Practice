@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx'
 import { HookState } from './components/states/state/index.jsx';
 import { HookEffect } from './components/states/effect/index.jsx';
+import { HookContext } from './components/states/context/index.jsx';
 import MainLayout from './components/layout/mainLayout/index.jsx';
 import Particle from './components/background/particles/index.jsx';
 
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/useEffect',
         element: <HookEffect />
+      },
+      {
+        path: '/useContext',
+        element: <HookContext />
       }
     ]
   }

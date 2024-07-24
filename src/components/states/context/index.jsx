@@ -168,7 +168,7 @@ function ThemedComponent() {
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
       <p>The current theme is {theme}</p>
-      <button
+      {/* <button
         onClick={toggleTheme}
         style={{
           background: theme === 'light' ? '#fff' : '#333',
@@ -181,6 +181,13 @@ function ThemedComponent() {
         }}
       >
         Toggle Theme
+      </button> */}
+      <button 
+        class="btn-23"
+        onClick={toggleTheme}
+      >
+        <span class="text">Theme</span>
+        <span aria-hidden="" class="marquee">Theme</span>
       </button>
     </div>
   );

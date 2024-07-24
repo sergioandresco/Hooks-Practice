@@ -127,7 +127,10 @@ function HookMemo(){
                 <div className="container-example-button">
                     <p>Count: {count}</p>
                     <p>Expensive Value: {memoizedValue}</p>
-                    <button onClick={() => setCount(count + 1)}>Increment Count</button>
+                    <button class="btn-23" onClick={() => setCount(count + 1)}>
+                        <span class="text">Add</span>
+                        <span aria-hidden="" class="marquee">Add</span>
+                    </button>
                 </div>
 
             </div>

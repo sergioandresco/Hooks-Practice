@@ -31,6 +31,11 @@ function Header(){
                         useMemo
                     </Link>
                 </li>
+                <li>
+                    <Link to='/useRef'>
+                        useRef
+                    </Link>
+                </li>
             </ul>
         </navbar>
     );

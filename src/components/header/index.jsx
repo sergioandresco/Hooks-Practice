@@ -4,7 +4,7 @@ import './header.css'
 
 function Header(){
     return(
-        <navbar className='header'>
+        <div className='header'>
             <ul className='header--container-opts'>
                 <li>
                     <Link to='/'>
@@ -37,7 +37,7 @@ function Header(){
                     </Link>
                 </li>
             </ul>
-        </navbar>
+        </div>
     );
 }
 

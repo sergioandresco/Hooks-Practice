@@ -1,13 +1,18 @@
-import { Link } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
-function TestButton({ url, nameHook }){
+function RedirectionButton({ url, nameHook }){
+
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate(url);
+    }
+
     return(
-        <Link to={url}>
-            <button>
-                {nameHook}
-            </button>
-        </Link>
+        <button onClick={handleClick}>
+            {nameHook}
+        </button>
     );
 }
 
-export { TestButton };
+export { RedirectionButton };

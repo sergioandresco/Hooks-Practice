@@ -12,28 +12,13 @@ function Header(){
                     </Link>
                 </li>
                 <li>
-                    <Link to='/useState'>
-                        useState
+                    <Link to='/menu-hooks-native'>
+                        Hooks Native
                     </Link>
                 </li>
                 <li>
-                    <Link to='/useEffect'>
-                        useEffect
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/useContext'>
-                        useContext
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/useMemo'>
-                        useMemo
-                    </Link>
-                </li>
-                <li>
-                    <Link to='/useRef'>
-                        useRef
+                    <Link to='/menu-hooks-react-router'>
+                        Hooks React Router
                     </Link>
                 </li>
             </ul>

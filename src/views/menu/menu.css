@@ -1,0 +1,11 @@
+.container-redirection-buttons{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.container-redirection-buttons--buttons{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}

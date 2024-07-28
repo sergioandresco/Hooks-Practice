@@ -1,0 +1,11 @@
+.back-button{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+}
+
+.back-button--icon{
+    width: 36px;
+    height: 36px;
+    color: white;
+}

@@ -1,6 +1,6 @@
-import { Outlet, useLocation, Link } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { RedirectionButton } from "../../../components/button-hook";
-import { TiArrowBack } from "react-icons/ti";
+import { ButtonBackMenu } from "../../../components/button-back-menu";
 
 import '../menu.css'
 
@@ -29,11 +29,7 @@ function MenuHooksNative(){
             <div>
                 <Outlet />
                 {showButtonBack && (
-                    <div className="back-button">
-                        <Link to="/menu-hooks-native">
-                            <TiArrowBack className="back-button--icon" />
-                        </Link>
-                    </div>
+                    <ButtonBackMenu url='/menu-hooks-native' />
                 )}
             </div>
         </>

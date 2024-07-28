@@ -14,12 +14,12 @@ function RedirectionButton({ url, nameHook }){
         <button className="redirection-btn" type="button" onClick={handleClick}>
             <strong className="redirection-btn--name-button">{nameHook}</strong>
             <div id="container-stars">
-            <div id="stars"></div>
+                <div id="stars"></div>
             </div>
         
             <div id="glow">
-            <div className="circle"></div>
-            <div className="circle"></div>
+                <div className="circle"></div>
+                <div className="circle"></div>
             </div>
         </button>
       

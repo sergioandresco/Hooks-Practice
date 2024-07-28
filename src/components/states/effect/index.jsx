@@ -96,9 +96,9 @@ function HookEffect(){
 
                 <div className="container-example-button">
                     <p>The amount of clicks in the title of the web page are <strong>{count}</strong></p>
-                    <button class="btn-23" onClick={() => setCount(count + 1)}>
-                        <span class="text">Click</span>
-                        <span aria-hidden="" class="marquee">Click</span>
+                    <button className="btn-23" onClick={() => setCount(count + 1)}>
+                        <span className="text">Click</span>
+                        <span aria-hidden="" className="marquee">Click</span>
                     </button>
                 </div>
 

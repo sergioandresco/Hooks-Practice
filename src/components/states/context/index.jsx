@@ -183,11 +183,11 @@ function ThemedComponent() {
         Toggle Theme
       </button> */}
       <button 
-        class="btn-23"
+        className="btn-23"
         onClick={toggleTheme}
       >
-        <span class="text">Theme</span>
-        <span aria-hidden="" class="marquee">Theme</span>
+        <span className="text">Theme</span>
+        <span aria-hidden="" className="marquee">Theme</span>
       </button>
     </div>
   );

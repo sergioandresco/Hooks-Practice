@@ -3,7 +3,7 @@ import { TiArrowBack } from "react-icons/ti";
 
 import './button-back-menu.css';
 
-function ButtonBackMenu({ url }){
+function BackButtonMenu({ url }){
     return(
         <div className="back-button">
             <Link to={url}>
@@ -13,4 +13,4 @@ function ButtonBackMenu({ url }){
     );
 }
 
-export { ButtonBackMenu };
+export { BackButtonMenu };

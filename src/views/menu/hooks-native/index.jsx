@@ -1,6 +1,6 @@
 import { Outlet, useLocation } from "react-router-dom";
 import { RedirectionButton } from "../../../components/button-hook";
-import { ButtonBackMenu } from "../../../components/button-back-menu";
+import { BackButtonMenu } from "../../../components/back-button-menu";
 
 import '../menu.css'
 
@@ -29,7 +29,7 @@ function MenuHooksNative(){
             <div>
                 <Outlet />
                 {showButtonBack && (
-                    <ButtonBackMenu url='/menu-hooks-native' />
+                    <BackButtonMenu url='/menu-hooks-native' />
                 )}
             </div>
         </>

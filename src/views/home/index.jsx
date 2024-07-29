@@ -5,9 +5,11 @@ import './home.css'
 function Home() {
 
   return (
-    <div>
+    <div className="container-redirection-buttons">
+      <div className="container-redirection-buttons--buttons">
         <RedirectionButton url='menu-hooks-native' nameHook='React Hooks Native' />
         <RedirectionButton url='menu-hooks-react-router' nameHook='React Router Hooks' />
+      </div>
     </div>
   )
 }

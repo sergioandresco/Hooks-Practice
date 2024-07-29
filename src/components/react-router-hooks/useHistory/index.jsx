@@ -9,7 +9,7 @@ import '../../states/state/state.css';
 
 function HookNavigate(){
 
-    let history = useNavigate();
+    let navigate = useNavigate();
     const[copy, setCopy] = useState(false);
 
     const codeString = `
@@ -17,17 +17,17 @@ function HookNavigate(){
     
     function HookHistory(){
     
-        let history = useNavigate();
+        let navigate = useNavigate();
     
-        function handleClick(){
-            history.push('/menu-hooks-native');
-        }
+        const navigateToMenuHooksNative = () => {
+            navigate('/menu-hooks-native');
+        };
     
         return(
     
             <div className="container-example-button">
                 <p>Go to Hooks Native</p>
-                <button className="btn-23" onClick={handleClick}>
+                <button className="btn-23" onClick={navigateToMenuHooksNative}>
                     <span className="text">Go</span>
                     <span aria-hidden="" className="marquee">Go</span>
                 </button>
@@ -38,9 +38,9 @@ function HookNavigate(){
     
     export { HookHistory };`;
 
-    function handleClick(){
-        history.push('/menu-hooks-native');
-    }
+    const navigateToMenuHooksNative = () => {
+        navigate('/menu-hooks-native');
+    };
 
     return(
         <div className="useState-Example">
@@ -101,7 +101,7 @@ function HookNavigate(){
 
                 <div className="container-example-button">
                     <p>Go to Hooks Native</p>
-                    <button className="btn-23" onClick={handleClick}>
+                    <button className="btn-23" onClick={navigateToMenuHooksNative}>
                         <span className="text">Go</span>
                         <span aria-hidden="" className="marquee">Go</span>
                     </button>

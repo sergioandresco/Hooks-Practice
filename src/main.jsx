@@ -9,6 +9,7 @@ import { HookContext } from './components/states/context/index.jsx';
 import { HookMemo } from './components/states/memo/index.jsx';
 import { HookRef } from './components/states/ref/index.jsx';
 import { HookNavigate } from './components/react-router-hooks/useHistory/index.jsx';
+import { HookLocation } from './components/react-router-hooks/useLocation/index.jsx';
 
 import { MenuHooksNative } from './views/menu/hooks-native/index.jsx';
 import { MenuHooksReactRouter } from './views/menu/hooks-react-router/index.jsx';
@@ -59,6 +60,10 @@ const router = createBrowserRouter([
           {
             path: 'useNavigate',
             element: <HookNavigate />
+          },
+          {
+            path: 'useLocation',
+            element: <HookLocation />
           }
         ]
       }

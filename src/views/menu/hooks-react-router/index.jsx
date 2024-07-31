@@ -19,6 +19,7 @@ function MenuHooksReactRouter(){
                         <div className="container-redirection-buttons--buttons">
                             <RedirectionButton url='useNavigate' nameHook='useNavigate Hook' />
                             <RedirectionButton url='useLocation' nameHook='useLocation Hook' />
+                            <RedirectionButton url='useMatch' nameHook='useMatch Hook' />
                         </div>
                     </div>
                 </>

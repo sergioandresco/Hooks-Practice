@@ -171,7 +171,13 @@
 }
 
 @media (min-width: 0px) and (max-width: 944px){
+  
   .redirection-btn {
     margin-bottom: 38px;
+    width: 16rem;
   }
+
+  .redirection-btn--name-button {
+    font-size: 18px;
+}
 }

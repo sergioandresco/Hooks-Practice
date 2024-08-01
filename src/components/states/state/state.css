@@ -181,3 +181,16 @@
         transform: translateX(var(--end));
     }
 }
+
+@media (min-width: 0px) and (max-width: 944px){
+
+    .useState-Example {
+        max-height: 538px;
+        padding-top: 27px;
+    }
+
+    .useState-Example--content {
+        max-width: 335px;
+        overflow: auto;
+    }
+}

@@ -9,3 +9,18 @@
     height: 36px;
     color: white;
 }
+
+@media (min-width: 0px) and (max-width: 944px){
+
+    .back-button {
+        top: 14%;
+        left: 9%;
+    }
+
+    .back-button--icon{
+        width: 36px;
+        height: 36px;
+        color: black;
+    }
+
+}

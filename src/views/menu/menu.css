@@ -9,3 +9,13 @@
     align-items: center;
     gap: 42px;
 }
+
+@media (min-width: 0px) and (max-width: 944px){
+
+    .container-redirection-buttons--buttons{
+        gap: 0px;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 55px;
+    }
+}

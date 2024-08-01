@@ -38,3 +38,10 @@
     width: 20px;
     height: 20px;
 }
+
+@media (min-width: 0px) and (max-width: 944px){
+    .signature {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

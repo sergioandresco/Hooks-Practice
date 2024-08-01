@@ -17,7 +17,12 @@ body{
 }
 
 @media (min-width: 0px) and (max-width: 944px){
+
+  html, body {
+    height: 100%;
+  }
+
   #root{
-    height: -webkit-fill-available;
+    height: 100%;
   }
 }

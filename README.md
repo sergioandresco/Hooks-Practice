@@ -1,4 +1,4 @@
-![React Logo](https://i.postimg.cc/XYgb7gsB/React-logo.webp)
+<img src="https://i.postimg.cc/XYgb7gsB/React-logo.webp" alt="React Logo" width="140px">
 # React Hooks
 
 This project is for teach the pincipal native hooks of React and the principal hooks of react-router-dom
